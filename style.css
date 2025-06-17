@@ -1,0 +1,44 @@
+/* Fonte personalizada aplicada */
+body {
+    background: linear-gradient(135deg, #7b2cbf, #ff4da6, #ff8800, #ffe600, #00e5ff);
+    background-size: 400% 400%;
+    animation: gradientAnimation 15s ease infinite;
+    color: white;
+    min-height: 100vh;
+    font-family: 'Coral Pixels', cursive;
+}
+
+/* Animação do degradê */
+@keyframes gradientAnimation {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+/* Estilo dos cards */
+.card {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+    border: none;
+    backdrop-filter: blur(10px);
+}
+
+/* Estilo dos textos dos cards */
+.card-text, .card-title {
+    color: white;
+}
+
+/* Rodapé com leve transparência */
+footer {
+    background-color: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(4px);
+    color: white;
+}
+
+/* Links no rodapé */
+footer a {
+    color: white;
+    text-decoration: underline;
+}
+
+
